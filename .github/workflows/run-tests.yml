@@ -1,10 +1,7 @@
 name: run-tests
 
 on:
-  push:
-    branches:
-      - "**"
-    paths: ["**"]
+  workflow_dispatch: 
 
 jobs:
   cpp-test:
